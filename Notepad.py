@@ -21,8 +21,8 @@ import os
 #function for new file
 def newFile():
     global File
-    root.title("*Untitled - Firepad")
-    root.iconbitmap('logo.ico')
+    root.title("*Untitled - Notepad")
+    root.iconbitmap('logo.ico')#you can use your logo here
     file = None
     TextArea.delete(1.0 , END)
 #function for open file
@@ -32,7 +32,7 @@ def openFile():
     if file == "":
         file = None
     else:
-        root.title(os.path.basename(file) + " - Firepad")
+        root.title(os.path.basename(file) + " - Notepad")
         TextArea.delete(1.0, END)
         f = open(file, "r")
         TextArea.insert(1.0, f.read())
@@ -46,7 +46,7 @@ def saveFile():
         f = open(File, "w")
         f.write(TextArea.get(1.0, END))
         f.close()
-        root.title(os.path.basename(File) + " - Firepad")
+        root.title(os.path.basename(File) + " - Notepad")
 
     if file == "": 
         file = None
@@ -54,7 +54,7 @@ def saveFile():
         f = open(file, "w")
         f.write(TextArea.get(1.0, END))
         f.close()
-        root.title(os.path.basename(file) + " - Firepad")
+        root.title(os.path.basename(file) + " - Notepad")
 
     
 #function for exit
@@ -77,7 +77,7 @@ def paste():
 #help menu
 #about
 def about():
-    showinfo("About Firepad",''' 
+    showinfo("About Notepad",''' 
        FireFrame
        Version 2021HQ 1.0.0 
        © FIREFRAME - ALL RIGHTS RESERVED.
@@ -102,7 +102,7 @@ root = tk.Tk()
 
 
 #window deigning
-root.title("*Untitled - Firepad")
+root.title("*Untitled - Notepad")
 root.geometry("744x588")
 
 #textarea
