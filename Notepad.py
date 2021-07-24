@@ -1,6 +1,6 @@
 ##############################################################
 #          # Created by ManavPatni                           #
-#          # Contact me on GitHub                            #
+#          # Follow me on GitHub                             #
 #          # Visit my website                                #
 #          # https://fireframe.godaddysites.com/             #
 ##############################################################
