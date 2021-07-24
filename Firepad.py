@@ -1,3 +1,10 @@
+##############################################################
+#          # Created by ManavPatni                           #
+#          # Contact me on GitHub or Medium                  #
+#          # Visit my website                                #
+#          # https://fireframe.godaddysites.com/             #
+##############################################################
+
 #importing 
 import tkinter as tk
 from tkinter import filedialog
@@ -15,7 +22,7 @@ import os
 def newFile():
     global File
     root.title("*Untitled - Firepad")
-    root.iconbitmap('D:\\manav\\Python\\Firepad\\logo.ico')
+    root.iconbitmap('logo.ico')
     file = None
     TextArea.delete(1.0 , END)
 #function for open file
@@ -154,3 +161,7 @@ TextArea.config(yscrollcommand=Scrollbar.set)
 
 #ending to firepad
 root.mainloop()
+
+#################################################################################################################################################################################
+#                                                                                   THE END                                                                                     #
+#################################################################################################################################################################################
