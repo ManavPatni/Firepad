@@ -1,5 +1,5 @@
-# Firepad
-It is a type of notepad that has all the basic functionality to be performed as a notepad and other text editors. It is purely coded in python programming language.
+# Notepad
+It is a type of text editor that has all the basic functionality to be performed in notepad and other text editors. It is purely coded in python programming language.
 
 It is a very basic notepad with some basic features in it such as:
    * Cut
