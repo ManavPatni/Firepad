@@ -97,7 +97,7 @@ def helpme():
         Visit website:- https://fireframe.godaddysites.com/
           ''')
 #help menu ending
-#starting of the firepad
+#starting of the notepad
 root = tk.Tk()
 
 
@@ -159,7 +159,7 @@ Scrollbar.pack(side=RIGHT, fill = Y)
 Scrollbar.config(command=TextArea.yview)
 TextArea.config(yscrollcommand=Scrollbar.set)
 
-#ending to firepad
+#ending to notepad
 root.mainloop()
 
 #################################################################################################################################################################################
